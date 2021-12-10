@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;700&display=swap');
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.site-banner{
+	background-image: url(./assets/images/background.jpg);
+	overflow: hidden;
+}
+.header{
+	padding: 38px 0;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 178px;
+}
+.logo img{
+	width: 100%;
+}
+.right-div{
+	margin: 0;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.icon{
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.icon img{
+	width: 28px;
+	margin-right: 5px;
+}
+.navigation{
+	overflow: hidden;
+	
+}
+.nav-list li{
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+}
+.nav-list li a{
+	color: #3d2514;
+	font-size: 14px;
+	font-family:'Bebas Neue', cursive ;
+}
+.banner-section{
+	overflow: hidden;
+}
+.banner-inner{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger-week{
+	width: 354px;
+}
+.burger-week span{
+	font-family:'Bebas Neue', cursive ;
+	padding: 10px;
+	border: dashed 1px #3d2514 ;
+	margin-bottom: 18px;
+	display: inline-block;
+}
+.burger-week h1{
+	font-family:'Alfa Slab One', cursive ;
+	color: #3d2514;
+	font-size: 76px;
+	margin: 0;
+	line-height: 70px;
+	text-shadow: 3px 3px 0px #fff;
+}
+.burger-week h2{
+	font-family:'Alfa Slab One', cursive ; 
+	color: #3d2514;
+	font-size: 38px;
+	margin: 0;
+	text-shadow: 3px 3px 0px #fff;
+}
+.burger-image{
+	width: 560px;
+	position: relative;
+}
+.burger-image img{
+	width: 100%;
+}
+.container-inner{
+	position: relative;
+}
+.only{
+	background-image: url(./assets/images/red.png);
+	width: 117px;
+	height: 117px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+    bottom: 70px;
+    left: 14px;
+}
+.only_inner{
+	margin-left: 14px;
+}
+.only_number{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 46px;
+	color: #fff;
+	margin: 0;
+    line-height: 38px;
+}
+.only_number sub{
+	font-size: 20px;
+	vertical-align: baseline;
+}
+.only_text{
+	font-size: 22px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	margin: 0;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 10px;
+    margin-top: -4px;
+}
+.inner_container{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+
+}
+.image_1{
+	position: relative;
+	width: 48.3%;
+}
+.image_text{
+	position: absolute;
+	top: 20px;
+	left: 15px;	
+}
+.image_1 span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	color: #fff;
+}
+.image_1 p{
+	margin-top: 3px;
+	font-size: 26px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+}
+.image-1{
+	position: relative;
+}
+.more_fun{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+}
+.more_fun span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	color: #fff;
+}
+.more_fun p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+}
+.image-2{
+	margin-top: 25px;
+	position: relative;
+}
+.fresh_chili{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+} 
+.fresh_chili span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	color: #fff;
+}
+.fresh_chili p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+}
+.inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.choose{
+	padding-bottom: 50px;
+}
+.choose_enjoy span {
+	color: #3d2514;
+	background-color: #ffc045;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	padding: 0 16px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	width: 144px;
+}
+.choose_enjoy h3{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 32px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 26px;
+}
+.choose_enjoy p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 44px;
+	color: #7a6e68;
+	font-weight: 300;
+}
+.inner_image h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	margin: 0;
+	color: #3d2514;
+	text-align: center;
+	margin-top: 28px;
+}
+.inner_image p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	margin: 0;
+	color: #7a6e68;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 14px;
+}
+.inner_image a{
+	background-color: #bf2222;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 11px;
+	color: #f7e8e8;
+	margin: 0 auto;
+	display: block;
+	width: 130px;
+	margin-top: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+	
+}
+.container_discover_container{
+	width: 950px;
+	margin: 0 auto;
+}
+.discover_inner{
+	box-shadow: 5px 20px 20px 5px;
+	color: #dadada;
+	display: flex;
+	justify-content: space-between;
+	padding: 18px;
+	margin: 50px;
+}
+.upcoming_events{
+	width: 342px;
+	position: relative;
+}
+.upcoming_events span{
+	color: #454545;
+	font-size: 19px;
+	font-family: 'Bebas Neue', cursive;
+}
+.upcoming_events h2{
+	font-size: 28px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	margin: 8px 0 26px 0;
+	margin: 0;
+}
+.upcoming_events p{
+	color: #575757;
+	font-size: 12px;
+	line-height: 22px;
+}
+.slider{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+    left: 0;
+}
+.slider div{
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin-right: 6px;
+	background-color: #dcdcdc;
+}
+.slider div:hover{
+	background-color: #ffc045;
+}
+.slider div:first-child{
+	background-color: #ffc045;
+}
+.discover_image img{
+	width: 438px;
+}
+.table_inner{
+	margin: 0 auto;
+	width: 520px;
+}
+.table_inner span{
+	text-align: center;
+	display: block;
+	margin-bottom: 8px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	color: #3d2514;
+}
+.table_section{
+	position: relative;
+}
+.left_burger{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 126px;
+}
+.right_burger{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	/*width: 172px;*/
+}
+.table_inner{
+	margin-top: 87px;
+	position: relative;
+}
+.bottle_image{
+	position: absolute;
+	left: -114px;
+   top: 130px;
+}
+.table_inner h2{
+	text-align: center;
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 32px;
+	color: #3d2514;
+}
+.in{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.in input{
+	width: 252px;
+	height: 42px;
+	border-radius: 5px;
+	border: solid 1px #bebebe;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 14px;
+	color: #3d3d3d;
+}
+.in a{
+	background-color: #bf2222;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 12px;
+	width: 252px;
+	color: #ffffff;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 42px;
+}
+.table_in{
+	margin-top: 60px;
+}
+.footer{
+	background-image: url(./assets/images/footer_background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 38px;
+}
+.footer_logo{
+	width: 272px;
+	margin: 50px 0 30px;
+}
+.footer_logo img{
+	width: 100%;
+}
+.footer_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.footer_text{
+	width: 80%;
+}
+.footer_text p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	width: 54%;
+}
+.first-img{
+	display: flex;
+	align-items: center;
+}
+.first-img img{
+	width: 22px;
+}
+.first-img span{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 14px;
+	padding-left: 22px;
+}
+.second-img{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.second-img img{
+	width: 22px;
+}
+.second-img span{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 14px;
+	padding-left: 22px;
+}
+.last{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 112px;
+	margin-bottom: 12px;
+}
+.company-text span{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 12px;
+}
+.wrapper img{
+	margin-left: 8px;
+}
