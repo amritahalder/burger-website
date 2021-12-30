@@ -26,7 +26,6 @@ img{
 .container{
 	width: 1200px;
 	margin: 0 auto;
-	overflow: hidden;
 }
 .header-inner{
 	display: flex;
@@ -285,7 +284,7 @@ img{
 	
 }
 .container_discover_container{
-	width: 950px;
+	width: 1000px;
 	margin: 0 auto;
 }
 .discover_inner{
@@ -299,6 +298,10 @@ img{
 .upcoming_events{
 	width: 342px;
 	position: relative;
+	float: left;
+}
+.discover_image{
+	float: right;
 }
 .upcoming_events span{
 	color: #454545;
@@ -480,4 +483,65 @@ img{
 }
 .wrapper img{
 	margin-left: 8px;
+}
+button.slick-prev.slick-arrow{
+	background-color: transparent;
+    border: 0;
+    font-size: 0;
+    background-image: url(./assets/images/left-arrow.png);
+    width: 30px;
+    height: 30px;
+    background-repeat: round;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+button.slick-next.slick-arrow{
+	background-color: transparent;
+    border: 0;
+    font-size: 0;
+    background-image: url(./assets/images/next.png);
+    width: 30px;
+    height: 30px;
+    background-repeat: round;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+ul.slick-dots {
+	list-style: none;
+    margin: 0;
+    position: absolute;
+	bottom: 85px;
+	left: 30px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_discover_container .slick-dots button{
+	border: 0;
+    width: 10px;
+    height: 12px;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+.container_discover_container .slick-dots  li.slick-active button,
+.container_discover_container .slick-dots  li button:hover{
+	background-color: #ffc045;
+}
+.container_discover_container .slick-dots  li{
+	margin-right: 5px;
 }
